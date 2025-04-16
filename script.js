@@ -7,6 +7,6 @@ function insert_Row() {
   cell1.innerHTML="New Cell1";
 	cell2.innerHTML="New Cell2";
 }
-insert_Row.addEventListener("insert_Row"(e)=>{
+insert_Row.addEventListener("insert_Row",(e)=>{
     insert_Row();	
 });
